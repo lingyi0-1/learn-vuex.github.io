@@ -14,8 +14,8 @@ git init
 git add -A
 git commit -m 'deploy'
 
-# 提交到 https://github.com:nusr/resume-vue 项目的 gh-pages 分支
-git push -f git@github.com:nusr/resume-vue.git master:gh-pages
+# 提交到 https://github.com:lingyi0-1/learn-vuex.github.io 项目的 gh-pages 分支
+git push -f git@github.com:lingyi0-1/learn-vuex.github.io.git  master:gh-pages
 
 cd -
 
