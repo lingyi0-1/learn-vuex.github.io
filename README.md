@@ -1,9 +1,9 @@
-demo效果：[https://lingyi0-1.github.io/learn-vuex.github.io/](https://lingyi0-1.github.io/learn-vuex.github.io/)  
+demo效果：[https://lingyi0-1.github.io/learn-vuex.github.io/](https://lingyi0-1.github.io/learn-vuex.github.io/)
 原文地址：[https://segmentfault.com/a/1190000005863691#articleHeader15](https://segmentfault.com/a/1190000005863691#articleHeader15)
 
 ## 前言
 
-与原文demo不同的地方是：
+这是一个demo,与原文demo不同的地方是：
 
 ```
 1. 使用vue-cli3.0（原文的是vue-cli2.0）
