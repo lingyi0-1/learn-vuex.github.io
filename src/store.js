@@ -44,14 +44,13 @@ export default new Vuex.Store({
               }
           }
       },
-      deleteNote(state, filteredNotes) {
+      deleteNote(state) {
           for (var i = 0; i < state.notes.length; i++){
               if(state.notes[i].id === state.activeNote.id){
                   state.notes.splice(i,1);
                   break;
               }
           }
-          state.activeNote = filteredNotes[0] || {};
       },
       toggleFavorite(state) {
           state.activeNote.favorite = !state.activeNote.favorite;
@@ -65,7 +64,11 @@ export default new Vuex.Store({
           }
       },
       updateActiveNote(state, note){
-          state.activeNote = note;
+          if(note instanceof Array){
+              state.activeNote = note[0] || {};
+          }else{
+              state.activeNote = note;
+          }
       }
 
 

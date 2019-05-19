@@ -26,14 +26,17 @@
         },
         watch:{
             activeNote: function(val, oldVal){
-                if(oldVal.title.trim().substring(0,30).length===0){
-                    for (var i = 0; i < this.notes.length; i++){
-                        if(this.notes[i].id === oldVal.id){
-                            this.notes.splice(i,1);
-                            break;
+                if(Object.keys(oldVal).length !== 0){
+                    if(oldVal.title.trim().substring(0,30).length===0){
+                        for (var i = 0; i < this.notes.length; i++){
+                            if(this.notes[i].id === oldVal.id){
+                                this.notes.splice(i,1);
+                                break;
+                            }
                         }
                     }
                 }
+
             }
         },
         methods: {

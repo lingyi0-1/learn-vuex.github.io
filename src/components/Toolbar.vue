@@ -3,7 +3,7 @@
         <span class="glyphicon logo"><img src="../assets/logo.png" width="30" height="30"></span>
         <span @click="newNote()" class="glyphicon glyphicon-plus"></span>
         <span @click="toggleFavorite()" class="glyphicon glyphicon-star" :class="{starred: activeNote.favorite}"></span>
-        <span @click="deleteNote(filteredNotes)" class="glyphicon glyphicon-remove"></span>
+        <span @click="deleteNoteAndUpdateActiveNote()" class="glyphicon glyphicon-remove"></span>
     </div>
 
 </template>
@@ -24,8 +24,13 @@
             ...mapMutations([
                 'newNote',
                 'toggleFavorite',
-                'deleteNote'
-            ])
+                'deleteNote',
+                'updateActiveNote'
+            ]),
+            deleteNoteAndUpdateActiveNote(){
+                this.deleteNote();
+                this.updateActiveNote(this.filteredNotes);
+            }
         }
     }
 </script>
