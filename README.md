@@ -1,4 +1,4 @@
-demo效果：[https://lingyi0-1.github.io/learn-vuex.github.io/](https://lingyi0-1.github.io/learn-vuex.github.io/)
+demo效果：[https://lingyi0-1.github.io/learn-vuex.github.io/](https://lingyi0-1.github.io/learn-vuex.github.io/)  
 原文地址：[https://segmentfault.com/a/1190000005863691#articleHeader15](https://segmentfault.com/a/1190000005863691#articleHeader15)
 
 ## 前言
