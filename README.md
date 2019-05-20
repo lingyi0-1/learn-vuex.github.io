@@ -1,4 +1,4 @@
-demo效果：[https://lingyi0-1.github.io/learn-vuex.github.io/](https://lingyi0-1.github.io/learn-vuex.github.io/)
+demo效果：[https://lingyi0-1.github.io/learn-vuex.github.io/](https://lingyi0-1.github.io/learn-vuex.github.io/)  
 原文地址：[https://segmentfault.com/a/1190000005863691#articleHeader15](https://segmentfault.com/a/1190000005863691#articleHeader15)
 
 ## 前言
@@ -9,6 +9,15 @@ demo效果：[https://lingyi0-1.github.io/learn-vuex.github.io/](https://lingyi0
 1. 使用vue-cli3.0（原文的是vue-cli2.0）
 2. vue2.0(原文的是vue1.0)。这里要注意生命周期钩子函数和vuex的不同
 3. 对原本demo进行了功能的优化
+```
+
+## 所用技术
+
+```
+1. html+css+js
+2. es6
+3. vue+vue-cli+vuex
+4. bootstrap
 ```
 
 ## 优化的功能
