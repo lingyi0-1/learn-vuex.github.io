@@ -14,8 +14,9 @@ demo效果：[https://lingyi0-1.github.io/learn-vuex.github.io/](https://lingyi0
 ## 所用技术
 
 ```
-1. html+css+js
-2. es6
+1. html
+2. css+sass
+2. js+es6
 3. vue+vue-cli+vuex
 4. bootstrap
 ```
